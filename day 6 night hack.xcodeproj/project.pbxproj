@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C63F438C28868177009B4302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F438B28868177009B4302 /* AppDelegate.swift */; };
+		C63F438E28868177009B4302 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F438D28868177009B4302 /* SceneDelegate.swift */; };
+		C63F439328868177009B4302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63F439128868177009B4302 /* Main.storyboard */; };
+		C63F439628868177009B4302 /* day_6_night_hack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C63F439428868177009B4302 /* day_6_night_hack.xcdatamodeld */; };
+		C63F439828868178009B4302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63F439728868178009B4302 /* Assets.xcassets */; };
+		C63F439B28868178009B4302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63F439928868178009B4302 /* LaunchScreen.storyboard */; };
+		C63F43A628868178009B4302 /* day_6_night_hackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F43A528868178009B4302 /* day_6_night_hackTests.swift */; };
+		C63F43B028868178009B4302 /* day_6_night_hackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F43AF28868178009B4302 /* day_6_night_hackUITests.swift */; };
+		C63F43B228868178009B4302 /* day_6_night_hackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F43B128868178009B4302 /* day_6_night_hackUITestsLaunchTests.swift */; };
+		C63F43C328868458009B4302 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F43C228868458009B4302 /* ToDoTableViewController.swift */; };
+		C63F43C52886848C009B4302 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F43C42886848C009B4302 /* ToDo.swift */; };
+		C63F43C928870952009B4302 /* addToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F43C828870952009B4302 /* addToDoViewController.swift */; };
+		C6E9D081288725830067121C /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E9D080288725830067121C /* CompleteToDoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C63F43A228868178009B4302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C63F438028868177009B4302 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C63F438728868177009B4302;
+			remoteInfo = "day 6 night hack";
+		};
+		C63F43AC28868178009B4302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C63F438028868177009B4302 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C63F438728868177009B4302;
+			remoteInfo = "day 6 night hack";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C63F438828868177009B4302 /* day 6 night hack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "day 6 night hack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63F438B28868177009B4302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C63F438D28868177009B4302 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C63F439228868177009B4302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C63F439528868177009B4302 /* day_6_night_hack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = day_6_night_hack.xcdatamodel; sourceTree = "<group>"; };
+		C63F439728868178009B4302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C63F439A28868178009B4302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C63F439C28868178009B4302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63F43A128868178009B4302 /* day 6 night hackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "day 6 night hackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63F43A528868178009B4302 /* day_6_night_hackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_6_night_hackTests.swift; sourceTree = "<group>"; };
+		C63F43AB28868178009B4302 /* day 6 night hackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "day 6 night hackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63F43AF28868178009B4302 /* day_6_night_hackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_6_night_hackUITests.swift; sourceTree = "<group>"; };
+		C63F43B128868178009B4302 /* day_6_night_hackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_6_night_hackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C63F43C228868458009B4302 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		C63F43C42886848C009B4302 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		C63F43C828870952009B4302 /* addToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addToDoViewController.swift; sourceTree = "<group>"; };
+		C6E9D080288725830067121C /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C63F438528868177009B4302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63F439E28868178009B4302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63F43A828868178009B4302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C63F437F28868177009B4302 = {
+			isa = PBXGroup;
+			children = (
+				C63F438A28868177009B4302 /* day 6 night hack */,
+				C63F43A428868178009B4302 /* day 6 night hackTests */,
+				C63F43AE28868178009B4302 /* day 6 night hackUITests */,
+				C63F438928868177009B4302 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C63F438928868177009B4302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C63F438828868177009B4302 /* day 6 night hack.app */,
+				C63F43A128868178009B4302 /* day 6 night hackTests.xctest */,
+				C63F43AB28868178009B4302 /* day 6 night hackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C63F438A28868177009B4302 /* day 6 night hack */ = {
+			isa = PBXGroup;
+			children = (
+				C63F438B28868177009B4302 /* AppDelegate.swift */,
+				C63F438D28868177009B4302 /* SceneDelegate.swift */,
+				C63F439128868177009B4302 /* Main.storyboard */,
+				C63F43C828870952009B4302 /* addToDoViewController.swift */,
+				C63F43C42886848C009B4302 /* ToDo.swift */,
+				C6E9D080288725830067121C /* CompleteToDoViewController.swift */,
+				C63F43C228868458009B4302 /* ToDoTableViewController.swift */,
+				C63F439728868178009B4302 /* Assets.xcassets */,
+				C63F439928868178009B4302 /* LaunchScreen.storyboard */,
+				C63F439C28868178009B4302 /* Info.plist */,
+				C63F439428868177009B4302 /* day_6_night_hack.xcdatamodeld */,
+			);
+			path = "day 6 night hack";
+			sourceTree = "<group>";
+		};
+		C63F43A428868178009B4302 /* day 6 night hackTests */ = {
+			isa = PBXGroup;
+			children = (
+				C63F43A528868178009B4302 /* day_6_night_hackTests.swift */,
+			);
+			path = "day 6 night hackTests";
+			sourceTree = "<group>";
+		};
+		C63F43AE28868178009B4302 /* day 6 night hackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C63F43AF28868178009B4302 /* day_6_night_hackUITests.swift */,
+				C63F43B128868178009B4302 /* day_6_night_hackUITestsLaunchTests.swift */,
+			);
+			path = "day 6 night hackUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C63F438728868177009B4302 /* day 6 night hack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63F43B528868178009B4302 /* Build configuration list for PBXNativeTarget "day 6 night hack" */;
+			buildPhases = (
+				C63F438428868177009B4302 /* Sources */,
+				C63F438528868177009B4302 /* Frameworks */,
+				C63F438628868177009B4302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "day 6 night hack";
+			productName = "day 6 night hack";
+			productReference = C63F438828868177009B4302 /* day 6 night hack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C63F43A028868178009B4302 /* day 6 night hackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63F43B828868178009B4302 /* Build configuration list for PBXNativeTarget "day 6 night hackTests" */;
+			buildPhases = (
+				C63F439D28868178009B4302 /* Sources */,
+				C63F439E28868178009B4302 /* Frameworks */,
+				C63F439F28868178009B4302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C63F43A328868178009B4302 /* PBXTargetDependency */,
+			);
+			name = "day 6 night hackTests";
+			productName = "day 6 night hackTests";
+			productReference = C63F43A128868178009B4302 /* day 6 night hackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C63F43AA28868178009B4302 /* day 6 night hackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63F43BB28868178009B4302 /* Build configuration list for PBXNativeTarget "day 6 night hackUITests" */;
+			buildPhases = (
+				C63F43A728868178009B4302 /* Sources */,
+				C63F43A828868178009B4302 /* Frameworks */,
+				C63F43A928868178009B4302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C63F43AD28868178009B4302 /* PBXTargetDependency */,
+			);
+			name = "day 6 night hackUITests";
+			productName = "day 6 night hackUITests";
+			productReference = C63F43AB28868178009B4302 /* day 6 night hackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C63F438028868177009B4302 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C63F438728868177009B4302 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					C63F43A028868178009B4302 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C63F438728868177009B4302;
+					};
+					C63F43AA28868178009B4302 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C63F438728868177009B4302;
+					};
+				};
+			};
+			buildConfigurationList = C63F438328868177009B4302 /* Build configuration list for PBXProject "day 6 night hack" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C63F437F28868177009B4302;
+			productRefGroup = C63F438928868177009B4302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C63F438728868177009B4302 /* day 6 night hack */,
+				C63F43A028868178009B4302 /* day 6 night hackTests */,
+				C63F43AA28868178009B4302 /* day 6 night hackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C63F438628868177009B4302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63F439B28868178009B4302 /* LaunchScreen.storyboard in Resources */,
+				C63F439828868178009B4302 /* Assets.xcassets in Resources */,
+				C63F439328868177009B4302 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63F439F28868178009B4302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63F43A928868178009B4302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C63F438428868177009B4302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63F438C28868177009B4302 /* AppDelegate.swift in Sources */,
+				C63F43C52886848C009B4302 /* ToDo.swift in Sources */,
+				C63F43C328868458009B4302 /* ToDoTableViewController.swift in Sources */,
+				C6E9D081288725830067121C /* CompleteToDoViewController.swift in Sources */,
+				C63F438E28868177009B4302 /* SceneDelegate.swift in Sources */,
+				C63F43C928870952009B4302 /* addToDoViewController.swift in Sources */,
+				C63F439628868177009B4302 /* day_6_night_hack.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63F439D28868178009B4302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63F43A628868178009B4302 /* day_6_night_hackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63F43A728868178009B4302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63F43B228868178009B4302 /* day_6_night_hackUITestsLaunchTests.swift in Sources */,
+				C63F43B028868178009B4302 /* day_6_night_hackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C63F43A328868178009B4302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C63F438728868177009B4302 /* day 6 night hack */;
+			targetProxy = C63F43A228868178009B4302 /* PBXContainerItemProxy */;
+		};
+		C63F43AD28868178009B4302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C63F438728868177009B4302 /* day 6 night hack */;
+			targetProxy = C63F43AC28868178009B4302 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C63F439128868177009B4302 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C63F439228868177009B4302 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C63F439928868178009B4302 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C63F439A28868178009B4302 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C63F43B328868178009B4302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C63F43B428868178009B4302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C63F43B628868178009B4302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39VWN66F9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "day 6 night hack/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.day-6-night-hack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C63F43B728868178009B4302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39VWN66F9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "day 6 night hack/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.day-6-night-hack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C63F43B928868178009B4302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39VWN66F9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.day-6-night-hackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/day 6 night hack.app/day 6 night hack";
+			};
+			name = Debug;
+		};
+		C63F43BA28868178009B4302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39VWN66F9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.day-6-night-hackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/day 6 night hack.app/day 6 night hack";
+			};
+			name = Release;
+		};
+		C63F43BC28868178009B4302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39VWN66F9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.day-6-night-hackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "day 6 night hack";
+			};
+			name = Debug;
+		};
+		C63F43BD28868178009B4302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39VWN66F9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.day-6-night-hackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "day 6 night hack";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C63F438328868177009B4302 /* Build configuration list for PBXProject "day 6 night hack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63F43B328868178009B4302 /* Debug */,
+				C63F43B428868178009B4302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C63F43B528868178009B4302 /* Build configuration list for PBXNativeTarget "day 6 night hack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63F43B628868178009B4302 /* Debug */,
+				C63F43B728868178009B4302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C63F43B828868178009B4302 /* Build configuration list for PBXNativeTarget "day 6 night hackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63F43B928868178009B4302 /* Debug */,
+				C63F43BA28868178009B4302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C63F43BB28868178009B4302 /* Build configuration list for PBXNativeTarget "day 6 night hackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63F43BC28868178009B4302 /* Debug */,
+				C63F43BD28868178009B4302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C63F439428868177009B4302 /* day_6_night_hack.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C63F439528868177009B4302 /* day_6_night_hack.xcdatamodel */,
+			);
+			currentVersion = C63F439528868177009B4302 /* day_6_night_hack.xcdatamodel */;
+			path = day_6_night_hack.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C63F438028868177009B4302 /* Project object */;
+}
